@@ -10,10 +10,10 @@ This is a reproduction of the fine-tuning procedure of EfficientNet, using packe
 The dataset is organized in [PyTorch ImageFolder] fashion, in that every sub-directory is named after the corresponding label. You may have to change the ROOT_DIR to your dataset directory in [dataset.py](src/dataset.py).
 
 #### 2. Prepare the Labels
-run [generate_dict.py](src/generate_dict.py) to generate mappings between label names and indices. This is used for visualization only during inference. You may have to change the ROOT_DIR to load the data.
+Run [generate_dict.py](src/generate_dict.py) to generate mappings between label names and indices. This is used for visualization only during inference. You may have to change the ROOT_DIR to load the data.
 
 #### 3. Train
-run [train.py](src/train.py) to fine-tune the model and generate weights. You may have to change the [IMAGE_SIZE] hyperparameter for different models.
+Run [train.py](src/train.py) to fine-tune the model and generate weights. You may have to change the [IMAGE_SIZE] hyperparameter for different models.
 ```
 python train.py --epochs 20 --pretrained --model-type efficientnet_b6
 ```
