@@ -1,8 +1,9 @@
 ## Introduction
-This is a reproduction of the fine-tuning procedure of EfficientNet, using packed-up models offered by torchvision, referencing largely the excellent work of [Sovit Rajan Rath] at [Efficientnet Transfer Learning Reference], with tweaks on handling larger datasets and visualization options.
+This is a reproduction of the fine-tuning procedure of EfficientNet, using packed-up models offered by [torchvision], referencing largely the excellent work of [Sovit Rajan Rath] at [Efficientnet Transfer Learning Reference], with tweaks on handling larger datasets and visualization options.
 
 [Efficientnet Transfer Learning Reference]: https://debuggercafe.com/transfer-learning-using-efficientnet-pytorch/
 [Sovit Rajan Rath]: <https://debuggercafe.com/>
+[torchvision]:<https://pytorch.org/vision/main/models/efficientnet.html>
 
 ## Reproduce the code
 #### 1. Prepare the Data
