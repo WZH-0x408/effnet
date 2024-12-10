@@ -1,0 +1,101 @@
+truth_name,truth_num,pred_correct,avg_confidence
+Meadow Bunting,5,5,0.8280833601951599
+Pallas's Reed Bunting,5,4,0.5611330134794116
+Japanese Reed Bunting,5,3,0.6405138561327476
+Common Reed Bunting,5,4,0.7896481528878212
+Chinese Sparrowhawk,5,1,0.35086534172296524
+Japanese Sparrowhawk,5,5,0.9855191826820373
+Oriental Magpie,5,5,0.971727705001831
+Eastern Marsh Harrier,5,1,0.1875573883764446
+Black Kite,5,4,0.7874362982809544
+Cotton Pygmy Goose,5,5,0.999999737739563
+Common Moorhen,5,4,0.793366008985322
+Black-winged Stilt,5,5,0.9999667763710022
+Pacific Golden Plover,5,4,0.7999561599921435
+Grey Plover,5,5,0.9963748693466187
+Lesser Sand Plover,5,5,0.8541402578353882
+Greater Sand Plover,5,4,0.5977965593338013
+Greater Painted-snipe,5,5,0.9998367547988891
+Pin-tailed Snipe,5,5,0.9928007364273072
+Vega Gull,5,3,0.5335826602065936
+Gull-billed Tern,5,4,0.8461726874113082
+Eurasian Teal,5,3,0.5770213583484292
+Oriental Turtle Dove,5,5,0.9320939540863037
+Red Turtle Dove,5,4,0.779266438819468
+Spotted Dove,5,5,0.9885928988456726
+Scaly-sided Merganser,5,4,0.825607630610466
+Asian Koel,5,4,0.7206668144091963
+Large Hawk-Cuckoo,5,3,0.5214690390974284
+Rufous Hawk-Cuckoo,5,0,0.002498335044947453
+Collared Scops Owl,5,4,0.7910238325595855
+Japanese Scops Owl,5,3,0.5740588275017217
+Oriental Scops Owl,5,4,0.8066219538450241
+White-throated Needletail,5,4,0.7589357248027226
+Pacific Swift,5,5,0.9877488493919373
+Oriental Dollarbird,5,2,0.3827962189418031
+Black-capped Kingfisher,5,5,0.9998610496520997
+Grey-headed Woodpecker,5,5,0.9860858201980591
+Common Kestrel,5,4,0.6113224038854241
+Chinese Bamboo Partridge,5,2,0.34546932512894274
+Common Pheasant,5,4,0.7975463568174745
+Swinhoe's Minivet,5,2,0.3784616204095073
+Ashy Minivet,5,4,0.8066583007574082
+Grey-chinned Minivet,5,0,0.00038063610772951504
+Scarlet Minivet,5,1,0.07160273113120183
+Brown Shrike,5,4,0.6580166757106781
+Long-tailed Shrike,5,4,0.6910628795623779
+Chinese Grey Shrike,5,3,0.7211516499519348
+Black Drongo,5,4,0.7942798405885696
+Hair-crested Drongo,5,4,0.6539302438497543
+Indian Paradise Flycatcher,5,3,0.4894662881895783
+Eurasian Jay,5,3,0.6187604881823063
+Red-billed Blue Magpie,5,1,0.07538147634622874
+Carrion Crow,5,5,0.962843406200409
+Japanese Waxwing,5,3,0.6273398250341415
+Grey-headed Canary-flycatcher,5,0,0.07483319356106222
+Japanese Tit,5,5,0.9972946286201477
+Chinese Penduline Tit,5,3,0.4758684730440109
+Black-necked Grebe,5,4,0.8160814702510834
+Sand Martin,5,3,0.4381108917295933
+Pale Martin,5,4,0.5038405418395996
+Common House Martin,5,3,0.6179182838648558
+Asian House Martin,5,5,0.8978805541992188
+Red-rumped Swallow,5,1,0.22862986199943408
+Brown-flanked Bush Warbler,5,1,0.15381663807459062
+Asian Stubtail,5,4,0.8222699970006943
+Pale-legged Leaf Warbler,5,3,0.5510020617097325
+Plain Prinia,5,4,0.7198531232774258
+Eurasian Bittern,5,5,0.9963255405426026
+Von Schrenck's Bittern,5,1,0.1605059630805954
+Black-crowned Night Heron,5,4,0.71766572650522
+Green Heron,5,3,0.6681055575609207
+Chinese Pond Heron,5,5,0.9968166828155518
+Eastern Cattle Egret,5,2,0.27225398369701
+Intermediate Egret,5,2,0.5479164481163025
+Common Starling,5,5,0.9999563694000244
+Little Egret,5,3,0.692891126871109
+White's Thrush,5,4,0.8002955540781841
+Tundra Bean Goose,5,3,0.6268523340579122
+Grey-streaked Flycatcher,5,3,0.6158800526860432
+Asian Brown Flycatcher,5,5,0.896516752243042
+Brown-breasted Flycatcher,5,1,0.1908094594367867
+Red-flanked Bluetail,5,3,0.6387879014015198
+White-crowned Forktail,5,4,0.8114332228899002
+Blue Whistling Thrush,5,4,0.7661774440668523
+Yellow-rumped Flycatcher,5,1,0.28261501199158373
+Narcissus Flycatcher,5,0,0.2567818190145772
+Plumbeous Water Redstart,5,1,0.2562277709774207
+Blue Rock Thrush,5,5,0.9985149145126343
+White-throated Rock Thrush,5,4,0.7367435535416007
+Stejneger's Stonechat,5,2,0.4330971176139428
+Western Osprey,5,4,0.7178343132138252
+Black-shouldered Kite,5,4,0.8024570161476732
+Scaly-breasted Munia,5,0,0.17248901323764584
+Crested Honey Buzzard,5,5,0.8927494406700134
+Buff-bellied Pipit,5,5,0.9999593019485473
+Black Baza,5,5,0.8739334583282471
+Chinese Grosbeak,5,4,0.6246152839623391
+Grey-capped Greenfinch,5,0,0.006847365658904892
+Crested Serpent Eagle,5,4,0.7956710040569306
+Red Crossbill,5,3,0.5911902582272888
+Short-toed Snake Eagle,5,5,0.9993976712226867
