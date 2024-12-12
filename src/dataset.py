@@ -2,9 +2,10 @@ import torch
 import yaml
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader, Subset
+from collections import Counter
 
 # Required constants.
-ROOT_DIR = '../input/matches2'
+ROOT_DIR = '/home/wangzihan/workspace/bird-detection/datasets/matches2'
 VALID_SPLIT = [0.7,0.2,0.1]
 IMAGE_SIZE = 288 # Image size of resize when applying transforms. 224 for b0, 528 for b6
 BATCH_SIZE = 16 
@@ -71,6 +72,9 @@ def get_datasets(pretrained):
     dataset_train = Subset(dataset, indices[:train_size])
     dataset_valid = Subset(dataset_test, indices[train_size:(train_size+valid_size)])
     dataset_test = Subset(dataset_test, indices[(train_size+valid_size):])
+    # Get training sample distribution.
+    train_stats = dict(Counter(dataset_train.dataset.targets))
+    class_weights = torch.tensor([1/train_stats[i] for i in range(len(dataset.classes))])
     # Save label-index mapping.
     with open('../input/class_dict.yaml', 'w') as file:
         yaml.dump(dict((v,k.split('.')[-1]) for k,v in dataset.class_to_idx.items())
@@ -78,7 +82,7 @@ def get_datasets(pretrained):
     with open('../input/class_dict_name.yaml', 'w') as file:
         yaml.dump(dict((k.split('.')[-1],v) for k, v in dataset.class_to_idx.items())
                   , file) # name to index 
-    return dataset_train, dataset_valid, dataset_test, dataset.classes
+    return dataset_train, dataset_valid, dataset_test, dataset.classes, class_weights
 
 def get_data_loaders(dataset_train, dataset_valid):
     """

@@ -38,7 +38,7 @@ def train(model, trainloader, optimizer, criterion, num_classes, device='cuda'):
     train_running_loss = 0.0
     train_running_correct = 0
     conf_matrix = torch.zeros(num_classes, num_classes)
-    class_stat = torch.zeros(num_classes,1)
+    class_stat = torch.zeros(num_classes, 1)
     counter = 0
     for i, data in tqdm(enumerate(trainloader), total=len(trainloader)):
         counter += 1
@@ -119,7 +119,7 @@ def test(model, testloader):
 
 if __name__ == '__main__':
     # Load the training and validation datasets.
-    dataset_train, dataset_valid, dataset_test, dataset_classes = get_datasets(args['pretrained'])
+    dataset_train, dataset_valid, dataset_test, dataset_classes, class_weights = get_datasets(args['pretrained'])
     print(f"[INFO]: Number of training images: {len(dataset_train)}")
     print(f"[INFO]: Number of validation images: {len(dataset_valid)}")
     print(f"[INFO]: Class names: {dataset_classes}\n")
@@ -151,7 +151,7 @@ if __name__ == '__main__':
     # Optimizer.
     optimizer = optim.Adam(model.parameters(), lr=lr)
     # Loss function.
-    criterion = nn.CrossEntropyLoss()
+    criterion = nn.CrossEntropyLoss(weight=class_weights.to(device))
     # Lists to keep track of losses and accuracies.
     train_loss, valid_loss = [], []
     train_acc, valid_acc = [], []
