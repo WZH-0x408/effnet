@@ -5,10 +5,10 @@ from torch.utils.data import DataLoader, Subset
 from collections import Counter
 
 # Required constants.
-ROOT_DIR = '/home/wangzihan/workspace/bird-detection/datasets/matches2'
+ROOT_DIR = '/home/data/Dataset/matches_all'
 VALID_SPLIT = [0.7,0.2,0.1]
 IMAGE_SIZE = 288 # Image size of resize when applying transforms. 224 for b0, 528 for b6
-BATCH_SIZE = 16 
+BATCH_SIZE = 32
 NUM_WORKERS = 8 # Number of parallel processes for data preparation.
 
 # Training transforms
@@ -101,17 +101,17 @@ def get_data_loaders(dataset_train, dataset_valid):
     )
     return train_loader, valid_loader
 
-# if __name__ == '__main__':
-#     # get label index mapping
-#     dataset = datasets.ImageFolder(
-#         ROOT_DIR, 
-#         transform=(get_train_transform(IMAGE_SIZE, True))
-#     )
+if __name__ == '__main__':
+    # get label index mapping
+    dataset = datasets.ImageFolder(
+        ROOT_DIR, 
+        transform=(get_train_transform(IMAGE_SIZE, True))
+    )
    
-#     # get dataset statistics
-#     class_dict = dict((v,k.split('.')[-1]) for k,v in dataset.class_to_idx.items())
-#     file = open('../dataset_stats.yaml', 'w')
-#     stats = dict(Counter(dataset.targets))
-#     stats = dict((class_dict[k], v) for k,v in stats.items())
-#     yaml.dump(stats, file)
-#     file.close()
+    # get dataset statistics
+    class_dict = dict((v,k.split('.')[-1]) for k,v in dataset.class_to_idx.items())
+    file = open('../dataset_stats.yaml', 'w')
+    stats = dict(Counter(dataset.targets))
+    stats = dict((class_dict[k], v) for k,v in stats.items())
+    yaml.dump(stats, file)
+    file.close()

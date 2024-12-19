@@ -1,100 +1,356 @@
-Ashy Minivet: 40
-Asian Brown Flycatcher: 78
-Asian House Martin: 60
-Asian Koel: 25
-Asian Stubtail: 63
-Black Baza: 94
-Black Drongo: 46
-Black Kite: 8
-Black-capped Kingfisher: 34
-Black-crowned Night Heron: 68
-Black-necked Grebe: 56
-Black-shouldered Kite: 90
-Black-winged Stilt: 11
-Blue Rock Thrush: 86
-Blue Whistling Thrush: 82
-Brown Shrike: 43
-Brown-breasted Flycatcher: 79
-Brown-flanked Bush Warbler: 62
-Buff-bellied Pipit: 93
-Carrion Crow: 51
-Chinese Bamboo Partridge: 37
-Chinese Grey Shrike: 45
-Chinese Grosbeak: 95
-Chinese Penduline Tit: 55
-Chinese Pond Heron: 70
-Chinese Sparrowhawk: 4
-Collared Scops Owl: 28
-Common House Martin: 59
-Common Kestrel: 36
-Common Moorhen: 10
-Common Pheasant: 38
-Common Reed Bunting: 3
-Common Starling: 73
-Cotton Pygmy Goose: 9
-Crested Honey Buzzard: 92
-Crested Serpent Eagle: 97
-Eastern Cattle Egret: 71
-Eastern Marsh Harrier: 7
-Eurasian Bittern: 66
-Eurasian Jay: 49
-Eurasian Teal: 20
-Greater Painted-snipe: 16
-Greater Sand Plover: 15
-Green Heron: 69
-Grey Plover: 13
-Grey-capped Greenfinch: 96
-Grey-chinned Minivet: 41
-Grey-headed Canary-flycatcher: 53
-Grey-headed Woodpecker: 35
-Grey-streaked Flycatcher: 77
-Gull-billed Tern: 19
-Hair-crested Drongo: 47
-Indian Paradise Flycatcher: 48
-Intermediate Egret: 72
-Japanese Reed Bunting: 2
-Japanese Scops Owl: 29
-Japanese Sparrowhawk: 5
-Japanese Tit: 54
-Japanese Waxwing: 52
-Large Hawk-Cuckoo: 26
-Lesser Sand Plover: 14
-Little Egret: 74
-Long-tailed Shrike: 44
+Amur Falcon: 157
+Arctic Warbler: 226
+Ashy Drongo: 177
+Ashy Minivet: 167
+Asian Barred Owlet: 132
+Asian Brown Flycatcher: 299
+Asian Dowitcher: 77
+Asian House Martin: 212
+Asian Koel: 119
+Asian Stubtail: 218
+Azure-winged Magpie: 181
+Baer's Pochard: 109
+Baikal Teal: 41
+Baillon's Crake: 37
+Band-bellied Crake: 38
+Bar-headed Goose: 244
+Bar-tailed Godwit: 66
+Barn Swallow: 210
+Besra: 19
+Black Baza: 345
+Black Bittern: 256
+Black Bulbul: 206
+Black Drongo: 176
+Black Eagle: 13
+Black Kite: 26
+Black Stork: 215
+Black-browed Reed Warbler: 236
+Black-capped Kingfisher: 144
+Black-collared Starling: 276
+Black-crowned Night Heron: 259
+Black-faced Bunting: 9
+Black-faced Spoonbill: 243
+Black-headed Gull: 94
+Black-naped Oriole: 175
+Black-necked Grebe: 203
+Black-shouldered Kite: 328
+Black-tailed Godwit: 67
+Black-throated Bushtit: 220
+Black-winged Cuckooshrike: 165
+Black-winged Stilt: 46
+Blue Rock Thrush: 320
+Blue Whistling Thrush: 313
+Blue-and-white Flycatcher: 303
+Bluethroat: 308
+Blyth's Pipit: 339
+Bohemian Waxwing: 189
+Bonelli's Eagle: 14
+Brambling: 346
+Broad-billed Sandpiper: 70
+Brown Crake: 34
+Brown Shrike: 172
+Brown-breasted Bulbul: 200
+Brown-breasted Flycatcher: 300
+Brown-cheeked Rail: 32
+Brown-chested Jungle Flycatcher: 302
+Brown-eared Bulbul: 207
+Brown-flanked Bush Warbler: 217
+Brown-headed Thrush: 290
+Buff-bellied Pipit: 343
+Buffy Laughingthrush: 250
+Bull-headed Shrike: 171
+Carrion Crow: 186
+Chestnut Bulbul: 205
+Chestnut Bunting: 8
+Chestnut-eared Bunting: 2
+Chestnut-flanked White-eye: 261
+Chestnut-winged Cuckoo: 117
+Chinese Bamboo Partridge: 163
+Chinese Blackbird: 287
+Chinese Grey Shrike: 174
+Chinese Grosbeak: 348
+Chinese Hwamei: 246
+Chinese Penduline Tit: 194
+Chinese Pond Heron: 263
+Chinese Sparrowhawk: 16
+Chinese Thrush: 294
+Cinnamon Bittern: 255
+Citrine Wagtail: 335
+Claudia's Leaf Warbler: 232
+Collared Crow: 187
+Collared Finchbill: 198
+Collared Owlet: 131
+Collared Scops Owl: 128
+Common Crane: 44
+Common Cuckoo: 127
+Common Greenshank: 91
+Common House Martin: 211
+Common Kestrel: 156
+Common Kingfisher: 145
+Common Merganser: 115
+Common Moorhen: 40
+Common Pheasant: 164
+Common Pochard: 108
+Common Redshank: 87
+Common Reed Bunting: 12
+Common Rosefinch: 350
+Common Sandpiper: 84
+Common Shelduck: 29
+Common Snipe: 81
+Common Starling: 279
+Common Tern: 101
+Cotton Pygmy Goose: 36
+Crested Goshawk: 15
+Crested Honey Buzzard: 332
+Crested Kingfisher: 146
+Crested Myna: 273
+Crested Serpent Eagle: 352
+Curlew Sandpiper: 72
+Dalmatian Pelican: 284
+Dark-sided Flycatcher: 298
+Daurian Jackdaw: 184
+Daurian Redstart: 318
+Daurian Starling: 277
+Dunlin: 76
+Dusky Thrush: 293
+Dusky Warbler: 222
+Eastern Buzzard: 30
+Eastern Cattle Egret: 265
+Eastern Crowned Warbler: 231
+Eastern Marsh Harrier: 23
+Eastern Spot-billed Duck: 86
+Eastern Yellow Wagtail: 334
+Eurasian Bittern: 245
+Eurasian Curlew: 65
+Eurasian Hobby: 159
+Eurasian Hoopoe: 148
+Eurasian Jay: 180
+Eurasian Siskin: 354
+Eurasian Skylark: 197
+Eurasian Sparrowhawk: 21
+Eurasian Spoonbill: 242
+Eurasian Teal: 100
+Eurasian Tree Sparrow: 325
+Eurasian Wigeon: 58
+Eurasian Woodcock: 78
+Eurasian Wren: 268
+Eurasian Wryneck: 150
+Eyebrowed Thrush: 288
+Fairy Pitta: 162
+Falcated Duck: 56
+Ferruginous Duck: 110
+Forest Wagtail: 333
+Gadwall: 53
+Garganey: 42
+Goldcrest: 264
+Great Barbet: 149
+Great Cormorant: 323
+Great Crested Grebe: 202
+Great Egret: 270
+Great Knot: 68
+Great Spotted Woodpecker: 154
+Greater Necklaced Laughingthrush: 249
+Greater Painted-snipe: 62
+Greater Sand Plover: 60
+Greater Scaup: 112
+Greater White-fronted Goose: 301
+Green Heron: 262
+Green Sandpiper: 85
+Grey Heron: 266
+Grey Nightjar: 137
+Grey Plover: 52
+Grey Treepie: 183
+Grey Wagtail: 336
+Grey-backed Thrush: 285
+Grey-capped Greenfinch: 351
+Grey-capped Pygmy Woodpecker: 152
+Grey-chinned Minivet: 168
+Grey-faced Buzzard: 27
+Grey-headed Canary-flycatcher: 191
+Grey-headed Lapwing: 49
+Grey-headed Woodpecker: 155
+Grey-streaked Flycatcher: 297
+Greylag Goose: 267
+Gull-billed Tern: 97
+Hair-crested Drongo: 178
+Hartert's Leaf Warbler: 233
+Hawfinch: 347
+Hen Harrier: 24
+Himalayan Cuckoo: 125
+Himalayan Swiftlet: 138
+Hooded Crane: 45
+House Swift: 141
+Indian Cuckoo: 124
+Indian Paradise Flycatcher: 179
+Indochinese Yuhina: 260
+Intermediate Egret: 272
+Japanese Grosbeak: 349
+Japanese Quail: 161
+Japanese Reed Bunting: 11
+Japanese Robin: 307
+Japanese Scops Owl: 129
+Japanese Sparrowhawk: 17
+Japanese Thrush: 286
+Japanese Tit: 193
+Japanese Waxwing: 190
+Kamchatka Leaf Warbler: 227
+Kentish Plover: 57
+Lanceolated Warbler: 238
+Large Hawk-Cuckoo: 121
+Large-billed Crow: 188
+Lesser Coucal: 114
+Lesser Cuckoo: 123
+Lesser Necklaced Laughingthrush: 248
+Lesser Sand Plover: 59
+Lesser White-fronted Goose: 310
+Light-vented Bulbul: 201
+Little Bunting: 3
+Little Egret: 280
+Little Grebe: 195
+Little Owl: 133
+Little Ringed Plover: 55
+Little Tern: 98
+Long-billed Plover: 54
+Long-eared Owl: 135
+Long-tailed Shrike: 173
+Long-toed Stint: 74
+Mallard: 92
+Manchurian Bush Warbler: 216
+Mandarin Duck: 33
+Marsh Sandpiper: 88
+Masked Laughingthrush: 247
 Meadow Bunting: 0
-Narcissus Flycatcher: 84
-Oriental Dollarbird: 33
-Oriental Magpie: 6
-Oriental Scops Owl: 30
-Oriental Turtle Dove: 21
-Pacific Golden Plover: 12
-Pacific Swift: 32
-Pale Martin: 58
-Pale-legged Leaf Warbler: 64
-Pallas's Reed Bunting: 1
-Pin-tailed Snipe: 17
-Plain Prinia: 65
-Plumbeous Water Redstart: 85
-Red Crossbill: 98
-Red Turtle Dove: 22
-Red-billed Blue Magpie: 50
-Red-flanked Bluetail: 80
-Red-rumped Swallow: 61
-Rufous Hawk-Cuckoo: 27
-Sand Martin: 57
-Scaly-breasted Munia: 91
-Scaly-sided Merganser: 24
-Scarlet Minivet: 42
-Short-toed Snake Eagle: 99
-Spotted Dove: 23
-Stejneger's Stonechat: 88
-Swinhoe's Minivet: 39
-Tundra Bean Goose: 76
-Vega Gull: 18
-Von Schrenck's Bittern: 67
-Western Osprey: 89
-White's Thrush: 75
-White-crowned Forktail: 81
-White-throated Needletail: 31
-White-throated Rock Thrush: 87
-Yellow-rumped Flycatcher: 83
+Merlin: 158
+Mountain Bulbul: 204
+Mugimaki Flycatcher: 316
+Mute Swan: 326
+Narcissus Flycatcher: 315
+Naumann's Thrush: 292
+Northern Boobook: 134
+Northern Goshawk: 22
+Northern Lapwing: 48
+Northern Pintail: 99
+Northern Shoveler: 50
+Olive-backed Pipit: 340
+Orange-headed Thrush: 281
+Oriental Cuckoo: 126
+Oriental Dollarbird: 142
+Oriental Magpie: 18
+Oriental Magpie-Robin: 296
+Oriental Plover: 61
+Oriental Pratincole: 93
+Oriental Reed Warbler: 235
+Oriental Scops Owl: 130
+Oriental Skylark: 196
+Oriental Stork: 221
+Oriental Turtle Dove: 104
+Pacific Golden Plover: 51
+Pacific Swift: 140
+Pale Martin: 209
+Pale Thrush: 289
+Pale-legged Leaf Warbler: 229
+Pallas's Grasshopper Warbler: 239
+Pallas's Leaf Warbler: 224
+Pallas's Reed Bunting: 10
+Pechora Pipit: 341
+Peregrine Falcon: 160
+Pheasant-tailed Jacana: 63
+Pied Avocet: 47
+Pied Harrier: 25
+Pied Kingfisher: 147
+Pin-tailed Snipe: 79
+Plain Prinia: 241
+Plumbeous Water Redstart: 319
+Purple Heron: 269
+Radde's Warbler: 223
+Red Crossbill: 353
+Red Turtle Dove: 105
+Red-billed Blue Magpie: 182
+Red-billed Leiothrix: 253
+Red-billed Starling: 274
+Red-breasted Merganser: 116
+Red-crested Pochard: 107
+Red-flanked Bluetail: 311
+Red-necked Phalarope: 83
+Red-necked Stint: 75
+Red-rumped Swallow: 213
+Red-throated Pipit: 342
+Red-throated Thrush: 291
+Red-whiskered Bulbul: 199
+Reed Parrotbill: 258
+Richard's Pipit: 338
+Rook: 185
+Ruddy Shelduck: 31
+Ruff: 69
+Rufous Hawk-Cuckoo: 122
+Rufous-bellied Woodpecker: 153
+Rufous-faced Warbler: 214
+Rufous-tailed Robin: 306
+Russet Sparrow: 324
+Rustic Bunting: 5
+Sakhalin Leaf Warbler: 230
+Sand Martin: 208
+Saunders's Gull: 95
+Scaly-breasted Munia: 331
+Scaly-sided Merganser: 118
+Scarlet Minivet: 169
+Sharp-tailed Sandpiper: 71
+Short-eared Owl: 136
+Short-toed Snake Eagle: 355
+Siberian Blue Robin: 305
+Siberian Crane: 43
+Siberian Rubythroat: 309
+Siberian Thrush: 282
+Silver-throated Bushtit: 219
+Smew: 113
+Speckled Piculet: 151
+Spotted Dove: 106
+Spotted Redshank: 90
+Square-tailed Drongo-Cuckoo: 120
+Stejneger's Stonechat: 322
+Sulphur-breasted Warbler: 234
+Swan Goose: 271
+Swinhoe's Minivet: 166
+Swinhoe's Snipe: 80
+Swinhoe's White-eye: 20
+Taiga Flycatcher: 317
+Temminck's Stint: 73
+Terek Sandpiper: 82
+Thick-billed Warbler: 237
+Tiger Shrike: 170
+Tristram's Bunting: 1
+Tufted Duck: 111
+Tundra Bean Goose: 295
+Tundra Swan: 329
+Two-barred Warbler: 228
+Upland Buzzard: 28
+Vega Gull: 96
+Verditer Flycatcher: 304
+Vinous-throated Parrotbill: 257
+Von Schrenck's Bittern: 254
+Water Pipit: 344
+Watercock: 39
+Western Osprey: 327
+Whimbrel: 64
+Whiskered Tern: 102
+White Wagtail: 337
+White's Thrush: 283
+White-breasted Waterhen: 35
+White-browed Laughingthrush: 251
+White-cheeked Starling: 275
+White-crowned Forktail: 312
+White-rumped Munia: 330
+White-shouldered Starling: 278
+White-throated Kingfisher: 143
+White-throated Needletail: 139
+White-throated Rock Thrush: 321
+White-winged Tern: 103
+Wood Sandpiper: 89
+Yellow Bittern: 252
+Yellow-bellied Tit: 192
+Yellow-breasted Bunting: 7
+Yellow-browed Bunting: 4
+Yellow-browed Warbler: 225
+Yellow-rumped Flycatcher: 314
+Yellow-throated Bunting: 6
+Zitting Cisticola: 240

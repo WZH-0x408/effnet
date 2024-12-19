@@ -1,100 +1,356 @@
 0: Meadow Bunting
-1: Pallas's Reed Bunting
-2: Japanese Reed Bunting
-3: Common Reed Bunting
-4: Chinese Sparrowhawk
-5: Japanese Sparrowhawk
-6: Oriental Magpie
-7: Eastern Marsh Harrier
-8: Black Kite
-9: Cotton Pygmy Goose
-10: Common Moorhen
-11: Black-winged Stilt
-12: Pacific Golden Plover
-13: Grey Plover
-14: Lesser Sand Plover
-15: Greater Sand Plover
-16: Greater Painted-snipe
-17: Pin-tailed Snipe
-18: Vega Gull
-19: Gull-billed Tern
-20: Eurasian Teal
-21: Oriental Turtle Dove
-22: Red Turtle Dove
-23: Spotted Dove
-24: Scaly-sided Merganser
-25: Asian Koel
-26: Large Hawk-Cuckoo
-27: Rufous Hawk-Cuckoo
-28: Collared Scops Owl
-29: Japanese Scops Owl
-30: Oriental Scops Owl
-31: White-throated Needletail
-32: Pacific Swift
-33: Oriental Dollarbird
-34: Black-capped Kingfisher
-35: Grey-headed Woodpecker
-36: Common Kestrel
-37: Chinese Bamboo Partridge
-38: Common Pheasant
-39: Swinhoe's Minivet
-40: Ashy Minivet
-41: Grey-chinned Minivet
-42: Scarlet Minivet
-43: Brown Shrike
-44: Long-tailed Shrike
-45: Chinese Grey Shrike
-46: Black Drongo
-47: Hair-crested Drongo
-48: Indian Paradise Flycatcher
-49: Eurasian Jay
-50: Red-billed Blue Magpie
-51: Carrion Crow
-52: Japanese Waxwing
-53: Grey-headed Canary-flycatcher
-54: Japanese Tit
-55: Chinese Penduline Tit
-56: Black-necked Grebe
-57: Sand Martin
-58: Pale Martin
-59: Common House Martin
-60: Asian House Martin
-61: Red-rumped Swallow
-62: Brown-flanked Bush Warbler
-63: Asian Stubtail
-64: Pale-legged Leaf Warbler
-65: Plain Prinia
-66: Eurasian Bittern
-67: Von Schrenck's Bittern
-68: Black-crowned Night Heron
-69: Green Heron
-70: Chinese Pond Heron
-71: Eastern Cattle Egret
-72: Intermediate Egret
-73: Common Starling
-74: Little Egret
-75: White's Thrush
-76: Tundra Bean Goose
-77: Grey-streaked Flycatcher
-78: Asian Brown Flycatcher
-79: Brown-breasted Flycatcher
-80: Red-flanked Bluetail
-81: White-crowned Forktail
-82: Blue Whistling Thrush
-83: Yellow-rumped Flycatcher
-84: Narcissus Flycatcher
-85: Plumbeous Water Redstart
-86: Blue Rock Thrush
-87: White-throated Rock Thrush
-88: Stejneger's Stonechat
-89: Western Osprey
-90: Black-shouldered Kite
-91: Scaly-breasted Munia
-92: Crested Honey Buzzard
-93: Buff-bellied Pipit
-94: Black Baza
-95: Chinese Grosbeak
-96: Grey-capped Greenfinch
-97: Crested Serpent Eagle
-98: Red Crossbill
-99: Short-toed Snake Eagle
+1: Tristram's Bunting
+2: Chestnut-eared Bunting
+3: Little Bunting
+4: Yellow-browed Bunting
+5: Rustic Bunting
+6: Yellow-throated Bunting
+7: Yellow-breasted Bunting
+8: Chestnut Bunting
+9: Black-faced Bunting
+10: Pallas's Reed Bunting
+11: Japanese Reed Bunting
+12: Common Reed Bunting
+13: Black Eagle
+14: Bonelli's Eagle
+15: Crested Goshawk
+16: Chinese Sparrowhawk
+17: Japanese Sparrowhawk
+18: Oriental Magpie
+19: Besra
+20: Swinhoe's White-eye
+21: Eurasian Sparrowhawk
+22: Northern Goshawk
+23: Eastern Marsh Harrier
+24: Hen Harrier
+25: Pied Harrier
+26: Black Kite
+27: Grey-faced Buzzard
+28: Upland Buzzard
+29: Common Shelduck
+30: Eastern Buzzard
+31: Ruddy Shelduck
+32: Brown-cheeked Rail
+33: Mandarin Duck
+34: Brown Crake
+35: White-breasted Waterhen
+36: Cotton Pygmy Goose
+37: Baillon's Crake
+38: Band-bellied Crake
+39: Watercock
+40: Common Moorhen
+41: Baikal Teal
+42: Garganey
+43: Siberian Crane
+44: Common Crane
+45: Hooded Crane
+46: Black-winged Stilt
+47: Pied Avocet
+48: Northern Lapwing
+49: Grey-headed Lapwing
+50: Northern Shoveler
+51: Pacific Golden Plover
+52: Grey Plover
+53: Gadwall
+54: Long-billed Plover
+55: Little Ringed Plover
+56: Falcated Duck
+57: Kentish Plover
+58: Eurasian Wigeon
+59: Lesser Sand Plover
+60: Greater Sand Plover
+61: Oriental Plover
+62: Greater Painted-snipe
+63: Pheasant-tailed Jacana
+64: Whimbrel
+65: Eurasian Curlew
+66: Bar-tailed Godwit
+67: Black-tailed Godwit
+68: Great Knot
+69: Ruff
+70: Broad-billed Sandpiper
+71: Sharp-tailed Sandpiper
+72: Curlew Sandpiper
+73: Temminck's Stint
+74: Long-toed Stint
+75: Red-necked Stint
+76: Dunlin
+77: Asian Dowitcher
+78: Eurasian Woodcock
+79: Pin-tailed Snipe
+80: Swinhoe's Snipe
+81: Common Snipe
+82: Terek Sandpiper
+83: Red-necked Phalarope
+84: Common Sandpiper
+85: Green Sandpiper
+86: Eastern Spot-billed Duck
+87: Common Redshank
+88: Marsh Sandpiper
+89: Wood Sandpiper
+90: Spotted Redshank
+91: Common Greenshank
+92: Mallard
+93: Oriental Pratincole
+94: Black-headed Gull
+95: Saunders's Gull
+96: Vega Gull
+97: Gull-billed Tern
+98: Little Tern
+99: Northern Pintail
+100: Eurasian Teal
+101: Common Tern
+102: Whiskered Tern
+103: White-winged Tern
+104: Oriental Turtle Dove
+105: Red Turtle Dove
+106: Spotted Dove
+107: Red-crested Pochard
+108: Common Pochard
+109: Baer's Pochard
+110: Ferruginous Duck
+111: Tufted Duck
+112: Greater Scaup
+113: Smew
+114: Lesser Coucal
+115: Common Merganser
+116: Red-breasted Merganser
+117: Chestnut-winged Cuckoo
+118: Scaly-sided Merganser
+119: Asian Koel
+120: Square-tailed Drongo-Cuckoo
+121: Large Hawk-Cuckoo
+122: Rufous Hawk-Cuckoo
+123: Lesser Cuckoo
+124: Indian Cuckoo
+125: Himalayan Cuckoo
+126: Oriental Cuckoo
+127: Common Cuckoo
+128: Collared Scops Owl
+129: Japanese Scops Owl
+130: Oriental Scops Owl
+131: Collared Owlet
+132: Asian Barred Owlet
+133: Little Owl
+134: Northern Boobook
+135: Long-eared Owl
+136: Short-eared Owl
+137: Grey Nightjar
+138: Himalayan Swiftlet
+139: White-throated Needletail
+140: Pacific Swift
+141: House Swift
+142: Oriental Dollarbird
+143: White-throated Kingfisher
+144: Black-capped Kingfisher
+145: Common Kingfisher
+146: Crested Kingfisher
+147: Pied Kingfisher
+148: Eurasian Hoopoe
+149: Great Barbet
+150: Eurasian Wryneck
+151: Speckled Piculet
+152: Grey-capped Pygmy Woodpecker
+153: Rufous-bellied Woodpecker
+154: Great Spotted Woodpecker
+155: Grey-headed Woodpecker
+156: Common Kestrel
+157: Amur Falcon
+158: Merlin
+159: Eurasian Hobby
+160: Peregrine Falcon
+161: Japanese Quail
+162: Fairy Pitta
+163: Chinese Bamboo Partridge
+164: Common Pheasant
+165: Black-winged Cuckooshrike
+166: Swinhoe's Minivet
+167: Ashy Minivet
+168: Grey-chinned Minivet
+169: Scarlet Minivet
+170: Tiger Shrike
+171: Bull-headed Shrike
+172: Brown Shrike
+173: Long-tailed Shrike
+174: Chinese Grey Shrike
+175: Black-naped Oriole
+176: Black Drongo
+177: Ashy Drongo
+178: Hair-crested Drongo
+179: Indian Paradise Flycatcher
+180: Eurasian Jay
+181: Azure-winged Magpie
+182: Red-billed Blue Magpie
+183: Grey Treepie
+184: Daurian Jackdaw
+185: Rook
+186: Carrion Crow
+187: Collared Crow
+188: Large-billed Crow
+189: Bohemian Waxwing
+190: Japanese Waxwing
+191: Grey-headed Canary-flycatcher
+192: Yellow-bellied Tit
+193: Japanese Tit
+194: Chinese Penduline Tit
+195: Little Grebe
+196: Oriental Skylark
+197: Eurasian Skylark
+198: Collared Finchbill
+199: Red-whiskered Bulbul
+200: Brown-breasted Bulbul
+201: Light-vented Bulbul
+202: Great Crested Grebe
+203: Black-necked Grebe
+204: Mountain Bulbul
+205: Chestnut Bulbul
+206: Black Bulbul
+207: Brown-eared Bulbul
+208: Sand Martin
+209: Pale Martin
+210: Barn Swallow
+211: Common House Martin
+212: Asian House Martin
+213: Red-rumped Swallow
+214: Rufous-faced Warbler
+215: Black Stork
+216: Manchurian Bush Warbler
+217: Brown-flanked Bush Warbler
+218: Asian Stubtail
+219: Silver-throated Bushtit
+220: Black-throated Bushtit
+221: Oriental Stork
+222: Dusky Warbler
+223: Radde's Warbler
+224: Pallas's Leaf Warbler
+225: Yellow-browed Warbler
+226: Arctic Warbler
+227: Kamchatka Leaf Warbler
+228: Two-barred Warbler
+229: Pale-legged Leaf Warbler
+230: Sakhalin Leaf Warbler
+231: Eastern Crowned Warbler
+232: Claudia's Leaf Warbler
+233: Hartert's Leaf Warbler
+234: Sulphur-breasted Warbler
+235: Oriental Reed Warbler
+236: Black-browed Reed Warbler
+237: Thick-billed Warbler
+238: Lanceolated Warbler
+239: Pallas's Grasshopper Warbler
+240: Zitting Cisticola
+241: Plain Prinia
+242: Eurasian Spoonbill
+243: Black-faced Spoonbill
+244: Bar-headed Goose
+245: Eurasian Bittern
+246: Chinese Hwamei
+247: Masked Laughingthrush
+248: Lesser Necklaced Laughingthrush
+249: Greater Necklaced Laughingthrush
+250: Buffy Laughingthrush
+251: White-browed Laughingthrush
+252: Yellow Bittern
+253: Red-billed Leiothrix
+254: Von Schrenck's Bittern
+255: Cinnamon Bittern
+256: Black Bittern
+257: Vinous-throated Parrotbill
+258: Reed Parrotbill
+259: Black-crowned Night Heron
+260: Indochinese Yuhina
+261: Chestnut-flanked White-eye
+262: Green Heron
+263: Chinese Pond Heron
+264: Goldcrest
+265: Eastern Cattle Egret
+266: Grey Heron
+267: Greylag Goose
+268: Eurasian Wren
+269: Purple Heron
+270: Great Egret
+271: Swan Goose
+272: Intermediate Egret
+273: Crested Myna
+274: Red-billed Starling
+275: White-cheeked Starling
+276: Black-collared Starling
+277: Daurian Starling
+278: White-shouldered Starling
+279: Common Starling
+280: Little Egret
+281: Orange-headed Thrush
+282: Siberian Thrush
+283: White's Thrush
+284: Dalmatian Pelican
+285: Grey-backed Thrush
+286: Japanese Thrush
+287: Chinese Blackbird
+288: Eyebrowed Thrush
+289: Pale Thrush
+290: Brown-headed Thrush
+291: Red-throated Thrush
+292: Naumann's Thrush
+293: Dusky Thrush
+294: Chinese Thrush
+295: Tundra Bean Goose
+296: Oriental Magpie-Robin
+297: Grey-streaked Flycatcher
+298: Dark-sided Flycatcher
+299: Asian Brown Flycatcher
+300: Brown-breasted Flycatcher
+301: Greater White-fronted Goose
+302: Brown-chested Jungle Flycatcher
+303: Blue-and-white Flycatcher
+304: Verditer Flycatcher
+305: Siberian Blue Robin
+306: Rufous-tailed Robin
+307: Japanese Robin
+308: Bluethroat
+309: Siberian Rubythroat
+310: Lesser White-fronted Goose
+311: Red-flanked Bluetail
+312: White-crowned Forktail
+313: Blue Whistling Thrush
+314: Yellow-rumped Flycatcher
+315: Narcissus Flycatcher
+316: Mugimaki Flycatcher
+317: Taiga Flycatcher
+318: Daurian Redstart
+319: Plumbeous Water Redstart
+320: Blue Rock Thrush
+321: White-throated Rock Thrush
+322: Stejneger's Stonechat
+323: Great Cormorant
+324: Russet Sparrow
+325: Eurasian Tree Sparrow
+326: Mute Swan
+327: Western Osprey
+328: Black-shouldered Kite
+329: Tundra Swan
+330: White-rumped Munia
+331: Scaly-breasted Munia
+332: Crested Honey Buzzard
+333: Forest Wagtail
+334: Eastern Yellow Wagtail
+335: Citrine Wagtail
+336: Grey Wagtail
+337: White Wagtail
+338: Richard's Pipit
+339: Blyth's Pipit
+340: Olive-backed Pipit
+341: Pechora Pipit
+342: Red-throated Pipit
+343: Buff-bellied Pipit
+344: Water Pipit
+345: Black Baza
+346: Brambling
+347: Hawfinch
+348: Chinese Grosbeak
+349: Japanese Grosbeak
+350: Common Rosefinch
+351: Grey-capped Greenfinch
+352: Crested Serpent Eagle
+353: Red Crossbill
+354: Eurasian Siskin
+355: Short-toed Snake Eagle
