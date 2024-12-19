@@ -13,8 +13,6 @@ for image_path in all_image_paths:
     random.seed(int(datetime.now().timestamp()))
     index = random.sample(range(0, len(all_files)), SAMPLE_PER_CLASS)
     counter = 0
-    if not os.path.exists('../input/test'):
-        os.makedirs('../input/test')
     for i in index:
         img = cv2.imread(os.path.join(image_path, all_files[i]))
         # img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
