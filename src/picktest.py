@@ -19,6 +19,6 @@ for image_path in all_image_paths:
         img = cv2.imread(os.path.join(image_path, all_files[i]))
         # img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         orig_image = img.copy()
-        cv2.imwrite(f'../input/test/{gt_class_name}_{counter}.png', orig_image)
+        cv2.imwrite(f'/home/data/Dataset/bird-id-test/{gt_class_name}_{counter}.png', orig_image)
         counter += 1
     
